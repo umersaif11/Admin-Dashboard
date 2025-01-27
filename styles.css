@@ -16,7 +16,7 @@ body{
     grid-column: 2/3;
     grid-row: 1/2;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1.25fr 2fr;
     background-color: white;
 }
 .first-row{
@@ -302,7 +302,7 @@ input[type='text']{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 65%;
-    height: 75%;
+    height: 55%;
 }
 .LeftColTwo{
     grid-column: 1/2;
@@ -387,6 +387,54 @@ input[type='text']{
     border-radius: 20px;
     border-left: 10px solid #eab308;
     box-shadow: 5px 5px 5px #6b7280;
+    padding: 30px 30px;
+    display: grid;
+    grid-template-rows: 1fr .25fr;
+}
+.card-content .content-title{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 3px;
+}
+.card-content .content-main{
+    font-size: 16px;
+    color: #475569;
+}
+.card-icon{
+    display: grid; 
+}
+.card-icon-main{
+    display: grid;
+    width: 50%;
+    justify-self: end;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.favrt-div{
+    display: grid;
+}
+.eye-div{
+    display: grid;
+}
+.connect-div{
+    display: grid;
+}
+.favrt{
+    max-width: 30px;
+    max-height: 30px;
+    justify-self: center;
+    align-self: center;
+}
+.eye{
+    max-width: 30px;
+    max-height: 30px;
+    justify-self: center;
+    align-self: center;
+}
+.connect{
+    max-width: 30px;
+    max-height: 30px;
+    justify-self: center;
+    align-self: center;
 }
 .announcementsTrending{
     grid-column: 2/3;
@@ -394,6 +442,35 @@ input[type='text']{
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 50px;
+}
+.announcements{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 30px;
+}
+.maintenance{
+    display: grid;
+    border-bottom: solid 1px #9ca3af;
+    padding-bottom: 5px;
+}
+.community-day{
+    display: grid;
+    border-bottom: solid 1px #9ca3af;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.policy{
+    display: grid;
+    padding-top: 5px;
+}
+.ann-title{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 3px;
+}
+.ann-content{
+    font-size: 16px;
+    color: #475569;
 }
 .announcementsTrending .announcements{
     background-color: white;
@@ -404,4 +481,70 @@ input[type='text']{
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #6b7280;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.main-avatar{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+.avatar-img{
+    display: grid;
+    width: 40px;
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 40%;
+    justify-self: end;
+    align-self: center;
+}
+.avatar{
+    max-width: 30px;
+    max-height: 30px;
+    justify-self: center;
+    align-self: center;
+}
+.avatar-content{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 15px;
+}
+.avatar-name{
+    align-self: center;
+    font-weight: bolder;
+    font-size: 18px;
+    font-weight: bold;
+}
+.avatar-quality{
+    font-weight: bolder;
+    font-size: 16px;
+    font-weight: normal;
+    color: #475569;
+}
+.avatar-img-1{
+    display: grid;
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    border-radius: 40%;
+    justify-self: end;
+    align-self: center;
+}
+.avatar-img-2{
+    display: grid;
+    width: 40px;
+    height: 40px;
+    background-color: #86efac;
+    border-radius: 40%;
+    justify-self: end;
+    align-self: center;
+}
+.avatar-img-3{
+    display: grid;
+    width: 40px;
+    height: 40px;
+    background-color: #f9a8d4;
+    border-radius: 40%;
+    justify-self: end;
+    align-self: center;
 }
